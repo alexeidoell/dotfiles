@@ -12,3 +12,6 @@
 
 [include]
     path = ~/.gitconfig.local
+
+[includeIf "gitdir:~/.local/share/yadm/repo.git"]
+  path = .config/yadm/config
