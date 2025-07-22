@@ -5,4 +5,12 @@ if status is-interactive
     set -gx BROWSER google-chrome
     set -gx EDITOR nvim
     tv init fish | source
+
+
+    abbr -a -- tree 'eza -T'
+    abbr -a -- ll 'eza -alF'
+    abbr -a -- la 'eza -A'
+    abbr -a -- l 'eza -GF'
+    abbr -a -- ls eza
+
 end
