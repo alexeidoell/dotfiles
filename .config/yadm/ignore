@@ -3,6 +3,10 @@
 # home directory files
 !.tmux.conf
 !.gitconfig*
+!.dot.bashrc
+
+# symlinked config files
+.gitconfig.local
 
 # .config files
 !.config
@@ -18,6 +22,3 @@
 !.config/yadm/**
 !.config/yazi
 !.config/yazi/**
-
-# symlinked config files
-.gitconfig.local
