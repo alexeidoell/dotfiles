@@ -10,8 +10,8 @@ if status is-interactive
     abbr -a -- tree 'eza -T'
     abbr -a -- ll 'eza -alF'
     abbr -a -- la 'eza -A'
-    abbr -a -- l 'eza -GF'
-    abbr -a -- ls eza
+    abbr -a -- ls 'eza -GF'
+    abbr -a -- l eza
 
     zoxide init fish | source
     abbr -a -- zi 'z $(tv zoxide --inline)'
