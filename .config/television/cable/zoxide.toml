@@ -1,0 +1,18 @@
+[metadata]
+name = "zoxide"
+description = "A channel to select files and directories"
+requirements = ["zoxide"]
+
+[source]
+command = ["zoxide query -ls"]
+display = "{split:/:1..}"
+output = "{split:/:1..}"
+
+[preview]
+command = "ls -la --color=always '/{split:/:1..}'"
+
+[ui]
+preview_panel = { "header" = "{split:/:1..}" }
+
+[keybindings]
+shortcut = "f4"

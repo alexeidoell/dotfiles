@@ -14,4 +14,5 @@ if status is-interactive
     abbr -a -- ls eza
 
     zoxide init fish | source
+    abbr -a -- zi 'z $(tv zoxide --inline)'
 end
