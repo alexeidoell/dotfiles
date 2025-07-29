@@ -13,4 +13,5 @@ if status is-interactive
     abbr -a -- l 'eza -GF'
     abbr -a -- ls eza
 
+    zoxide init fish | source
 end

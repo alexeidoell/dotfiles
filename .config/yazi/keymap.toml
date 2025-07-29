@@ -7,3 +7,23 @@ desc = "Enter the child directory, or open the file"
 on   = "-"
 run = "leave"
 desc = "Go back to parent directory"
+
+[[mgr.prepend_keymap]]
+on   = "q"
+run = "quit --no-cwd-file"
+desc = "Exit without moving to cwd"
+
+[[mgr.prepend_keymap]]
+on   = "Q"
+run = "quit"
+desc = "Exit and output cwd to cwd-file"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "c" ]
+run  = "plugin vcs-files"
+desc = "Show Git file changes"
+
+[[mgr.prepend_keymap]]
+on   = "F"
+run  = "plugin smart-filter"
+desc = "Smart filter"
