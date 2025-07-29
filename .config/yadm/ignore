@@ -1,3 +1,23 @@
 *
-!.config/*
-!.*
+
+# home directory files
+!.tmux.conf
+!.gitconfig*
+
+# .config files
+!.config
+.config/*
+!.config/fish
+!.config/fish/**
+!.config/television
+!.config/television/**
+!.config/ghostty
+!.config/ghostty/**
+!.config/nvim
+!.config/yadm
+!.config/yadm/**
+!.config/yazi
+!.config/yazi/**
+
+# symlinked config files
+.gitconfig.local

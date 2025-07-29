@@ -7,6 +7,4 @@ function fish_user_key_bindings
     bind \n 'complete'
     bind -e \b
     bind \b 'backward-char'
-    bind -e \cF
-    bind \cF 'clear-screen'
 end
