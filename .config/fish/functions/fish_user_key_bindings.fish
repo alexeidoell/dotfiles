@@ -9,7 +9,6 @@ function fish_user_key_bindings
     bind \b 'backward-char'
     bind -e \c_
     bind \c_ 'pager-toggle-search'
-    bind -e \e\[46\;5u
-    bind \e\[46\;5u 'clear-screen'
-
+    bind -e \cC
+    bind \cC ctrl_c
 end
