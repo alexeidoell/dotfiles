@@ -22,3 +22,5 @@
 !.config/yadm/**
 !.config/yazi
 !.config/yazi/**
+!.config/hypr
+!.config/hypr/**

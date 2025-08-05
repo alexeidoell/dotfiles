@@ -48,3 +48,5 @@ shell-integration-features = no-cursor
 font-feature = "-calt, -liga, -dlig"
 
 theme = yorumi-abyss
+
+background-opacity = 0.8

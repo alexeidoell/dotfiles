@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3800
 SETUVAR _fish_abbr_l:eza\x20\x2dGF
 SETUVAR _fish_abbr_la:eza\x20\x2dA
 SETUVAR _fish_abbr_ll:eza\x20\x2dalF
@@ -30,7 +30,7 @@ SETUVAR fish_color_option:\x1d
 SETUVAR fish_color_param:A0A0F0
 SETUVAR fish_color_quote:666A80
 SETUVAR fish_color_redirection:FAFAFA
-SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
