@@ -11,8 +11,10 @@ if status is-interactive
     abbr -a -- ll 'eza -alF'
     abbr -a -- la 'eza -A'
     abbr -a -- ls 'eza -GF'
+    abbr -a -- xssh 'xwayland-run -shm -hidpi -nokeymap -- ssh -X -C'
     abbr -a -- l eza
 
     zoxide init fish | source
+    wl-screenrec --generate-completions fish | source
     abbr -a -- zi 'z $(tv zoxide --inline)'
 end
