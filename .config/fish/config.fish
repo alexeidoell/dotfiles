@@ -8,7 +8,7 @@ if status is-interactive
 
 
     abbr -a -- tree 'eza -T'
-    abbr -a -- ll 'eza -alF'
+    abbr -a -- ll 'eza -algF'
     abbr -a -- la 'eza -A'
     abbr -a -- ls 'eza -GF'
     abbr -a -- xssh 'xwayland-run -shm -hidpi -nokeymap -- ssh -X -C'

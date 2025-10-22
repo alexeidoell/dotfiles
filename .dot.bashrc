@@ -1,7 +1,7 @@
 #!/bin/bash
 
 alias l='eza'
-alias ll='eza -alF'
+alias ll='eza -algF'
 alias la='eza -A'
 alias ls='eza -GF'
 alias tree='eza -T'
