@@ -49,4 +49,4 @@ font-feature = "-calt, -liga, -dlig"
 
 theme = yorumi-abyss
 
-background-opacity = 0.8
+background-opacity = 1

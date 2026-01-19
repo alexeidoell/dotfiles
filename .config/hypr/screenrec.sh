@@ -1,6 +1,7 @@
 #!/bin/bash
 
 pgrep -x "wl-screenrec" && pkill -INT -x wl-screenrec && notify-send -h string:wl-screenrec:record -t 2000 "Finished Recording" && exit 0
+pgrep -x "slurp" && pkill slurp && notify-send -h string:wl-screenrec:record -t 2000 "Selection Cancelled" && exit 0
 
 sleep 0.1
 area=$(slurp) && notify-send -h string:wl-screenrec:record -t 2000 "Recording Started" || exit 0
