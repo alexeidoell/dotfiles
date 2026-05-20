@@ -18,3 +18,8 @@ if status is-interactive
     wl-screenrec --generate-completions fish | source
     abbr -a -- zi 'z $(tv zoxide --inline)'
 end
+
+# ZVM
+set -gx ZVM_INSTALL "$HOME/.zvm/self"
+set -gx PATH $PATH "$HOME/.zvm/bin"
+set -gx PATH $PATH "$ZVM_INSTALL/"

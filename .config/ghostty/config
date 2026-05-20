@@ -43,10 +43,13 @@
 # resize-overlay-duration = 4s 200ms
 
 cursor-style = block
-shell-integration-features = no-cursor
+shell-integration-features = ssh-env,ssh-terminfo,no-cursor
 
 font-feature = "-calt, -liga, -dlig"
 
 theme = yorumi-abyss
 
 background-opacity = 1
+
+quit-after-last-window-closed = false
+

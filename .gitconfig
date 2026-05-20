@@ -15,3 +15,14 @@
 
 [includeIf "gitdir:~/.local/share/yadm/repo.git"]
   path = .config/yadm/config
+
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
+[core]
+    editor = nvim
