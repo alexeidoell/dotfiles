@@ -1,0 +1,19 @@
+# Work (Calian) machine-local instructions
+
+Managed via yadm as `~/.claude/CLAUDE.local.md##class.Work`.
+
+## Release notes — my writing style
+
+When writing my RELEASE-NOTES.MD entries, match the voice of my past entries (CMP-5574, CMP-5561, CMP-5506, CMP-5355, CMP-4235), not generic changelog prose:
+
+- Lead with the symptom or new behavior as the user/operator experiences it: `Fixed X <doing the bad thing>.` or `X now does Y.` Never lead with the implementation or file/script names.
+- 1–3 sentences. If a second sentence is needed, it states the new behavior ("CMP now detects...", "A failed stage now aborts...").
+- Fold secondary changes into the same entry with "Additionally, ...".
+- Present tense for new behavior; "no longer" for removed misbehavior.
+- Operator-facing flags/properties/config keys go in backticks (`--ignore-reset-err`, `prependServerIdToDeviceName`, `cmp.influx.token`). Omit file paths, function names, and internal mechanisms unless an operator interacts with them.
+- No "(for example, ...)" padding — describe the concrete symptom directly.
+- Mechanism detail is allowed only when it changes what the operator should do or expect.
+
+Example of the target voice:
+
+> **Deployment**: Fixed the installer reporting failed install stages as "completed successfully" and continuing past the failure. A failed stage now aborts the installation with its exit code and the stage name to resume from. Additionally, kubespray reset failures during Kubernetes uninstall now produce a warning when `--ignore-reset-err` is true (the default) and a hard error when it is false. [[CMP-5591](https://calian-at.atlassian.net/browse/CMP-5591)]

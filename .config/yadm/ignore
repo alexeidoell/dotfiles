@@ -7,6 +7,13 @@
 
 # symlinked config files
 .gitconfig.local
+.claude/CLAUDE.local.md
+
+# claude code
+!.claude
+.claude/*
+!.claude/CLAUDE.md
+!.claude/CLAUDE.local.md##*
 
 # .config files
 !.config
