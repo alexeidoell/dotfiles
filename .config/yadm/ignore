@@ -9,6 +9,9 @@
 .gitconfig.local
 .claude/CLAUDE.local.md
 
+# machine-local, untracked
+.gitconfig.machine
+
 # claude code
 !.claude
 .claude/*

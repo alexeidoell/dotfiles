@@ -1,3 +1,6 @@
 [user]
 	email = alexei.doell@calian.com
 	name = Alexei Doell
+
+[include]
+	path = ~/.gitconfig.machine
